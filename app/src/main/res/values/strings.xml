@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">SNSLogin</string>
+
+    <string name="facebook_app_id">202451774797559</string>
+    <string name="facebook_application_id">202451774797559</string>
+    <string name="fb_login_protocol_scheme">fb314143896790079</string>
+
+    <string name="web_client_id">181504445591-u8dvvqv1tre6s5p5ruqcv5b2dv8j0s0s.apps.googleusercontent.com</string>
+
+    <string name="naver_client_id">wDCopMUd12bHgero5t1f</string>
+    <string name="naver_client_pw">9ANanqDhhO</string>
+
+    <string name="facebook">페이스북</string>
+    <string name="google">구글</string>
+    <string name="naver">네이버</string>
+
+</resources>

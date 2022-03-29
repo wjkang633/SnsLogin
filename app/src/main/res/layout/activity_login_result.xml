@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.LoginResultActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:padding="15dp"
+        android:text="로그인 완료"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/setting_pin_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/logout_btn"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/rounding_box"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="PIN 설정하기" />
+
+    <TextView
+        android:id="@+id/logout_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="15dp"
+        android:background="@drawable/rounding_box"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="로그아웃" />
+
+</RelativeLayout>
